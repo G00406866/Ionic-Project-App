@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>TopMovies</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-grid class="ion-align-items-center">
+    <ion-row class="ion-justify-content-center">
+      <ion-col size-sm="6" size-md="4" size-lg="3">
+        <ion-button expand="full" shape="round" (click)="goToMovies()">Trending Movies</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size-sm="6" size-md="4" size-lg="3">
+        <ion-button expand="full" shape="round" (click)="goToCinemas()">Book Tickets</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size-sm="6" size-md="4" size-lg="3">
+        <ion-button expand="full" shape="round" (click)="goToRandomMovie()">Random Movie</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

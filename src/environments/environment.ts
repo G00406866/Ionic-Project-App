@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  apiKey: '4f85a71134f0c2d1724a6f13a9080bbe',
-  baseUrl: 'https://api.themoviedb.org/3',
-  images: 'http://image.tmdb.org/t/p',
+  apiKey: '8fc15cfa10f9b2f03fe8810dfd100454',//my api key for The Movie Data Base
+  baseUrl: 'https://api.themoviedb.org/3',//the base url for the database lists of trending movies
+  images: 'http://image.tmdb.org/t/p',//the base url for the images of each trending movie
 };
 
 /*
